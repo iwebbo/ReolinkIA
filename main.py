@@ -9,7 +9,7 @@ TARGET_CLASSES = [0, 16]
 CONFIDENCE_THRESHOLD = 0.5  # Ajuste cette valeur (0.5 = 50% de confiance)
 
 # URL du flux RTSP (remplace par l'URL de ta caméra)
-rtsp_url = "rtsp://admin:Reolink2024*!@192.168.1.9:554"
+rtsp_url = "rtsp://USER:PASSWORD@IP.LOCAL:554"
 
 # Ouvrir le flux vidéo
 cap = cv2.VideoCapture(rtsp_url)
